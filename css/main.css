@@ -7,9 +7,15 @@ html {
 }
 
 nav a {
-  color: #0084a6;
+  color: #005e76;
+  text-decoration: none;
+  background-color: #fff;
+  border: none;
+  border-radius: 0;
+  border-bottom: #0084a6 1pt solid;
 }
 
 nav a:hover {
   color: #005e76;
+  background-color: #fff;
 }
