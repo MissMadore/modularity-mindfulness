@@ -2,9 +2,9 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
-.japanese {
+/* .japanese {
   font-family: "Noto Sans Japanese", sans-serif;
-}
+} */
 
 nav a {
   color: #005e76;
@@ -18,4 +18,9 @@ nav a {
 nav a:hover {
   color: #005e76;
   background-color: #fff;
+}
+
+.border {
+  border-top: 1pt solid #e2e2e2;
+  border-bottom: 1pt solid #e2e2e2;
 }
