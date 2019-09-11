@@ -1,5 +1,6 @@
 html {
   font-family: "Noto Sans", sans-serif;
+  color: #000;
 }
 
 /* .japanese {
@@ -7,7 +8,7 @@ html {
 } */
 
 nav a {
-  color: #005e76;
+  color: #0084a6;
   text-decoration: none;
   background-color: #fff;
   border: none;
@@ -23,4 +24,19 @@ nav a:hover {
 .border {
   border-top: 1pt solid #e2e2e2;
   border-bottom: 1pt solid #e2e2e2;
+}
+
+.btn-ghost {
+  border-color: #8bc9d9;
+  color: #005e76;
+}
+
+.btn-ghost:hover {
+  border-color: #005e76;
+  background-color: #8bc9d9;
+  color: #005e76;
+}
+
+footer {
+  border-top: 1pt solid #e2e2e2;
 }
