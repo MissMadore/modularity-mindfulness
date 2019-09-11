@@ -8,22 +8,23 @@ html {
 } */
 
 nav a {
-  color: #0084a6;
+  color: #005e76;
   text-decoration: none;
   background-color: #fff;
   border: none;
   border-radius: 0;
-  border-bottom: #0084a6 1pt solid;
+  border-bottom: 1px solid #8bc9d9;
 }
 
 nav a:hover {
-  color: #005e76;
+  color: #000;
   background-color: #fff;
+  border-bottom: 1px solid #0084a6;
 }
 
 .border {
-  border-top: 1pt solid #e2e2e2;
-  border-bottom: 1pt solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 .btn-ghost {
@@ -38,5 +39,11 @@ nav a:hover {
 }
 
 footer {
-  border-top: 1pt solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
 }
